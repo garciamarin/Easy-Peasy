@@ -1,1 +1,10 @@
 /* Our css file */ 
+.foodContainer{
+    margin: 0 15%;
+}
+.foodHeadVeggie{
+    border-top:#B5DA49 solid;
+}
+.btn-veggie{
+    background-color:#E27045 !important
+}
