@@ -5,8 +5,7 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap");
 
 .superheader {
   height: 90vh;
@@ -15,7 +14,6 @@ body {
 
 a {
   color: white;
-  
 }
 a:hover {
   text-decoration: none;
@@ -37,10 +35,10 @@ header {
 }
 
 .logo-easypeasy {
-    width: 40%;
-    height: 40%;
-    min-width: 50px;
-    min-height: 50px;
+  width: 40%;
+  height: 40%;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 .logo--wrapper {
@@ -54,8 +52,6 @@ nav {
   align-items: center;
   margin-top: 2%;
 }
-
-
 
 .nav--content {
   width: 70%;
@@ -94,8 +90,6 @@ nav img {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 0 0 2% 0;
   margin: 5% 15%;
-
-
 }
 
 .welcome--title {
@@ -121,16 +115,20 @@ nav img {
   color: #585151;
   line-height: 1.8;
   word-spacing: 3px;
-
 }
 
 .welcome-button {
-  color: white;
-  background-color: tomato;
+  color: tomato;
+  border: 1px solid tomato;
   padding: 1%;
   border-radius: 5%;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-size: large;
   font-weight: bold;
+}
+
+.welcome-button:hover {
+  cursor: pointer;
 }
 
 .aboutus {
@@ -141,7 +139,6 @@ nav img {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.7);
   margin: 10% 15% 5% 15%;
-
 }
 
 .aboutus--title {
@@ -165,115 +162,79 @@ nav img {
   width: 60%;
 }
 
-
 .wrapper-instafood {
   display: flex;
   justify-content: center;
 }
 
-
 .instafood {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   color: #ff009a;
   font-size: xx-large;
-
 }
-
-
 
 .test {
   height: 2000px;
 }
 
-.sidemenu--titel{
-  margin-top: 13%;
-  font-family: 'Dancing Script', cursive;
-  color: tomato;
-  font-size: xx-large;
-
-}
-
 .fixed-top {
-    
-    margin-left: 90% ;
+  margin-left: 90%;
 }
- 
+
 .sidemenuimg1 {
-margin-top: 20%;
+  margin-top: 20%;
 }
 
 .sidemenuimg2 {
-margin-top: 25%;
-
+  margin-top: 25%;
 }
 
 .sidemenuimg3 {
-    margin-top: 30%;
-
+  margin-top: 30%;
 }
-
-
-
-
 
 .sidemenuimg2:hover {
-    cursor: url("./jpg/tagvegetarian.png"), default;
+  cursor: url("./jpg/tagvegetarian.png"), default;
 }
 .sidemenuimg3:hover {
-    cursor: url("./jpg/tagmeatlovers.png"), default;
-
+  cursor: url("./jpg/tagmeatlovers.png"), default;
 }
 
 .hidden-text {
-    display: none;
-
+  display: none;
 }
 
 .sidemenuimg1:hover {
-    
-    cursor: url("./jpg/tagvegan.png"), default;
-
+  cursor: url("./jpg/tagvegan.png"), default;
 }
 
+.iconmenu {
+  margin-left: 10%;
+  width: 40px;
+  height: 40px;
+  background-image: url(./jpg/logomenulines.png);
+}
 
-.wrapper--testbutton{
-  visibility:hidden;
+.navhidden {
+  display: none;
 }
 
 @media screen and (max-width: 900px) {
+  div.navhidden {
+    display: block;
+    position: fixed;
+  }
+
+  .backgroundhiddemenu {
+    background-color: rgba(255, 99, 71, 0.527);
+    padding-left: 5px;
+  }
+
+  div.nav--content {
+    display: none;
+  }
+
   div.wrap-sidemenu {
     display: none;
-  
-}
-
-@media screen and (max-width: 900px) {
-  
-  div.logo--wrapper {
-    display: none;
   }
-}
-
-@media screen and (max-width: 900px) {
-  
-  div.wrapper--testbutton {
-    visibility: visible;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  div.wrapper--menu--item {
-    background-color: red;
-    font-size: small;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-  }
-  
-}
-
-@media screen and (max-width: 900px) {
-.nav--menu--item {
-  width: 30%;
 }
