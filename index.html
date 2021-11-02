@@ -19,29 +19,45 @@
     <title>Easy Peasy</title>
   </head>
 
-
   <body>
     <div class="superheader">
       <header>
         <nav>
-          <div class="nav-content">
-            <div class="logo-wrapper">
-              <img src="./jpg/logo.png" alt="Logo-Easy" />
+          <div class="nav--content">
+            <div class="logo--wrapper">
+              <img
+                class="logo-easypeasy"
+                src="./img/easy_peasy-logo_transparent.png"
+                alt="Logo-Easy"
+              />
             </div>
-            <ul>
-              <p class="nav--menu--item">HOME</p>
-              <p class="nav--menu--item">ABOUT US</p>
-              <p class="nav--menu--item">VEGETARIAN</p>
-              <p class="nav--menu--item">VEGAN</p>
-              <p class="nav--menu--item">MEAT-LOVERS</p>
-              <p class="nav--menu--item">JOIN</p>
+            <div class="wrapper--testbutton">
+              <div class="testbutton">
+                <img src="./jpg/logomenulines.png" alt="Menu" />
+              </div>
+            </div>
+            <ul class="wrapper--menu--item">
+              <span class="nav--menu--item"><a href="index.html">HOME</a></span>
+              <span class="nav--menu--item"
+                ><a href="#section--aboutus">ABOUT US</a></span
+              >
+              <span class="nav--menu--item"
+                ><a href="vegan.html">VEGAN</a></span
+              >
+              <span class="nav--menu--item"
+                ><a href="vegetarian.html">VEGETARIAN</a></span
+              >
+              <span class="nav--menu--item"
+                ><a href="meatlovers.html">MEAT-LOVERS</a></span
+              >
+              <span class="nav--menu--item"><a href="#">JOIN</a></span>
             </ul>
           </div>
         </nav>
 
         <div class="welcome">
           <div class="welcome--wrapper">
-            <h1 class="welcome--title">Easy Peasy</h1>
+            <h1 class="welcome--title font-weight-bold">Easy Peasy</h1>
             <p class="welcome--subtitle">
               More than a cook-book, we are a community!
             </p>
@@ -52,13 +68,28 @@
               fruit salad cool off. Coconut appetizer blueberries salty lime red
               amazon pepper kale caesar salad bananas refreshing cucumber.
             </p>
-            <div class="welcome-button">ABOUT US</div>
+            <div class="welcome-button font-weight-bold">Click Mix & Enjoy</div>
           </div>
         </div>
 
-        <div class="aboutus">
+        <div class="wrap-sidemenu">
+          <span class="sidemenu--titel fixed-top">Our menu...</span>
+          <img
+            class="fixed-top sidemenuimg1"
+            src="./jpg/eco-friendly-fabric.png"
+            alt=""
+          />
+          <img
+            class="fixed-top sidemenuimg2"
+            src="./jpg/vegetarianmenu.png"
+            alt=""
+          />
+          <img class="fixed-top sidemenuimg3" src="./jpg/barbecue.png" alt="" />
+        </div>
+
+        <div id="section--aboutus" class="aboutus">
           <div class="aboutus--wrapper">
-            <h1 class="aboutus--title">About Easy Peasy</h1>
+            <h1 class="aboutus--title font-weight-bold">About Easy Peasy</h1>
             <div class="aboutus--pwrapper">
               <p class="aboutus--p">
                 Quinoa flatbread spiced pumpkin chili spicy summer fruit salad
@@ -67,37 +98,31 @@
               </p>
               <p class="aboutus--p">
                 Banh mi salad rolls tempeh mocha chocolate pumpkin butternut mix
-                green tea raspberries cherry bomb cumin cool tabasco pepper
-                tomato and basil pasta quinoa flatbread spiced pumpkin chili
-                spicy summer fruit salad cool off. Coconut appetizer blueberries
-                salty lime red amazon pepper kale caesar salad bananas
-                refreshing cucumber.
+                green tea raspberries cherry spiced pumpkin chili spicy summer
+                fruit salad cool off. Coconut appetizer blueberries salty lime
+                red amazon pepper kale caesar salad bananas refreshing cucumber.
+              </p>
+              <p class="aboutus--p">
+                Pasta quinoa flatbread spiced pumpkin chili spicy summer fruit
+                salad cool off. Coconut appetizer blueberries salty lime red
+                amazon pepper kale caesar salad bananas refreshing cucumber.
               </p>
             </div>
+          </div>
+
+          <div class="wrapper-instafood">
+            <span class="instafood font-weight-bold">
+              #easypeasy #instafood ...
+            </span>
+            <img src="./jpg/instagram.png" alt="Instagram" />
           </div>
         </div>
       </header>
     </div>
 
+    <div class="hidden-text">Vegetarian</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    <div id="test" class="test"></div>
 
     <!-- Este es el JavaScript de Bootstrap-->
     <script

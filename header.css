@@ -5,10 +5,22 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+
 
 .superheader {
-  height: 95vh;
+  height: 90vh;
   overflow: scroll;
+}
+
+a {
+  color: white;
+  
+}
+a:hover {
+  text-decoration: none;
+  color: tomato;
+  cursor: url("./jpg/pointer.png"), default;
 }
 
 header {
@@ -17,13 +29,21 @@ header {
   background-size: cover;
   background-position: top center;
   width: 100%;
-  height: 200vh;
+  height: 180vh;
   flex-direction: column;
   justify-items: center;
   align-items: center;
   overflow: scroll;
 }
-.logo-wrapper {
+
+.logo-easypeasy {
+    width: 40%;
+    height: 40%;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.logo--wrapper {
   width: 20%;
 }
 
@@ -31,21 +51,27 @@ nav {
   height: 5%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 2%;
 }
 
-.nav-content {
+
+
+.nav--content {
   width: 70%;
   display: flex;
   align-items: center;
 }
 
-nav ul {
+.wrapper--menu--item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   color: whitesmoke;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  margin-bottom: 0 !important;
 }
 
 .nav--menu--item:hover {
@@ -68,6 +94,8 @@ nav img {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 0 0 2% 0;
   margin: 5% 15%;
+
+
 }
 
 .welcome--title {
@@ -93,11 +121,12 @@ nav img {
   color: #585151;
   line-height: 1.8;
   word-spacing: 3px;
+
 }
 
 .welcome-button {
   color: white;
-  background-color: #e27045;
+  background-color: tomato;
   padding: 1%;
   border-radius: 5%;
   font-family: "Roboto Condensed", sans-serif;
@@ -111,15 +140,15 @@ nav img {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.7);
-  margin: 10% 15%;
+  margin: 10% 15% 5% 15%;
+
 }
 
 .aboutus--title {
   font-family: "Roboto Condensed", sans-serif;
   color: #524848;
   font-size: 30px;
-  text-align: center;
-  padding-left: 15%;
+  padding: 5%;
 }
 
 .aboutus--p {
@@ -136,100 +165,115 @@ nav img {
   width: 60%;
 }
 
-.test {
-  height: 2000px;
-}
 
-
-
-/* vegetarian */
-
-.main--title--line {
-  width: 100%;
-}
-
-.main--line {
-  width: 70%;
-  height: 5px;
-  background-color: yellowgreen;
-  margin: 2% auto;
-}
-
-.main--title {
-  width: 70%;
-  margin: 0 auto;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  color: #524848;
-}
-
-.container--boxes--recipes {
-  width: 100%;
+.wrapper-instafood {
   display: flex;
   justify-content: center;
 }
 
-.wrapper--boxes--recipes {
-  width: 70%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-.image--vegetarian {
-  width: 100%;
-  height: 70%;
-  object-fit: cover;
-  object-position: top;
-}
+.instafood {
+  font-family: 'Dancing Script', cursive;
+  color: #ff009a;
+  font-size: xx-large;
 
-.wrapper-dish-img {
-  width: 23%;
-  height: 40vh;
-}
-
-.dish-title {
-  width: 50%;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 500;
-  color: #585151;
-  text-align: start;
-  font-size: large;
-  word-spacing: 2px;
 }
 
 
-.container-layover-img {
-  position: relative;
+
+.test {
+  height: 2000px;
+}
+
+.sidemenu--titel{
+  margin-top: 13%;
+  font-family: 'Dancing Script', cursive;
+  color: tomato;
+  font-size: xx-large;
+
+}
+
+.fixed-top {
+    
+    margin-left: 90% ;
+}
+ 
+.sidemenuimg1 {
+margin-top: 20%;
+}
+
+.sidemenuimg2 {
+margin-top: 25%;
+
+}
+
+.sidemenuimg3 {
+    margin-top: 30%;
+
+}
+
+
+
+
+
+.sidemenuimg2:hover {
+    cursor: url("./jpg/tagvegetarian.png"), default;
+}
+.sidemenuimg3:hover {
+    cursor: url("./jpg/tagmeatlovers.png"), default;
+
+}
+
+.hidden-text {
+    display: none;
+
+}
+
+.sidemenuimg1:hover {
+    
+    cursor: url("./jpg/tagvegan.png"), default;
+
+}
+
+
+.wrapper--testbutton{
+  visibility:hidden;
+}
+
+@media screen and (max-width: 900px) {
+  div.wrap-sidemenu {
+    display: none;
   
-
-}
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
 }
 
-.container-layover-img:hover .image--vegetarian {
-  opacity: 0.3;
-
+@media screen and (max-width: 900px) {
+  
+  div.logo--wrapper {
+    display: none;
+  }
 }
 
-.container-layover-img:hover .middle{
-  opacity: 1;
-
+@media screen and (max-width: 900px) {
+  
+  div.wrapper--testbutton {
+    visibility: visible;
+  }
 }
 
+@media screen and (max-width: 900px) {
+  div.wrapper--menu--item {
+    background-color: red;
+    font-size: small;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  
+}
 
-.layover-text {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-
+@media screen and (max-width: 900px) {
+.nav--menu--item {
+  width: 30%;
 }
