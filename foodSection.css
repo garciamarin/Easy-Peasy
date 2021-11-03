@@ -26,6 +26,10 @@
 .btn-meat{
   background-color:#FF6347  !important
 }
+.card-background{
+    background-color:whitesmoke  !important
+
+}
 .container-md {
     max-width: 768px;
   }
