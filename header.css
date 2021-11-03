@@ -237,4 +237,23 @@ nav img {
   div.wrap-sidemenu {
     display: none;
   }
+
+  div.aboutus--wrapper {
+    display: block;
+    text-align: center;
+   
+  }
+   div.aboutus--pwrapper{
+     display: block;
+     margin: 0 auto;
+   }
+
+  div.aboutus--p {
+    width: 90%;
+    text-align: center;
+  }
+
+  div.aboutus--title {
+    text-align: center;
+  }
 }
