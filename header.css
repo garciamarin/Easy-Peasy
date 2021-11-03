@@ -80,8 +80,7 @@ nav img {
   width: 35px;
 }
 
-.welcome {
-}
+
 .welcome--wrapper {
   display: flex;
   flex-direction: column;
@@ -131,8 +130,6 @@ nav img {
   cursor: pointer;
 }
 
-.aboutus {
-}
 .aboutus--wrapper {
   display: flex;
   justify-content: space-between;
@@ -173,10 +170,6 @@ nav img {
   font-size: xx-large;
 }
 
-.test {
-  height: 2000px;
-}
-
 .fixed-top {
   margin-left: 90%;
 }
@@ -198,10 +191,6 @@ nav img {
 }
 .sidemenuimg3:hover {
   cursor: url("./jpg/tagmeatlovers.png"), default;
-}
-
-.hidden-text {
-  display: none;
 }
 
 .sidemenuimg1:hover {
@@ -241,12 +230,11 @@ nav img {
   div.aboutus--wrapper {
     display: block;
     text-align: center;
-   
   }
-   div.aboutus--pwrapper{
-     display: block;
-     margin: 0 auto;
-   }
+  div.aboutus--pwrapper {
+    display: block;
+    margin: 0 auto;
+  }
 
   div.aboutus--p {
     width: 90%;
