@@ -1,156 +1,172 @@
 @media screen and (max-width: 768px) {
-    footer {
-        background-position: -160px;
+  footer {
+    background-position: -160px;
     /*
     height: 50%;
     width: 50%;
     */
-    }
+  }
 
-    /* add display none for copyright */
+  /* add display none for copyright */
 }
 
-footer {
-    background-image: url(jpg/footer-bk.png);
-    background-size: cover;
-    width: 100%;
-    min-width: 600px;
-}
 
 footer .form-flex-container {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+  background-image: url(jpg/footer-bk.png);
+  background-size: cover;
+  width: 100%;
+  min-width: 300px;
+
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .footer-form input,
 textarea {
-    min-width: 300px;
-    width: 70%;
-    font-size: 15px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
-    font-family: Creo;
-    font-weight: lighter;
-    background-color:whitesmoke;
+  min-width: 150px;
+  width: 70%;
+
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  font-family: Creo;
+  font-weight: lighter;
+  background-color: whitesmoke;
+}
+
+.inputareahight {
+  height: 40px;
 }
 
 .footer-form {
-    font-family: Creo;
-    color: whitesmoke;
-    display: flex;
+  font-family: Creo;
+  color: whitesmoke;
+  display: flex;
 }
 
 .footer-form button {
-    width: 120px;
-    height: 50px;
-    background-color: transparent;
-    border: 2px solid whitesmoke;
-    border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
 }
 
 .footer-form button a {
-    text-decoration: none;
-    font-family: Creo;
-    color: whitesmoke;
+  text-decoration: none;
+  font-family: Creo;
+  color: whitesmoke;
 }
 
 .footer-form button a:hover {
-    color: #FF6347;
+  color: #ff6347;
 }
 
 form {
-    width: 40%;
+  display: block;
+  align-items: center;
+  width: 40%;
+  height: 500px;
 }
 
 form h1 {
-    font-size: 25px;
-    font-weight: lighter;
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 form p {
-    font-size: 18px;
-    font-weight: lighter;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 @media screen and (max-width: 768px) {
-    .footer-information {
+  .footer-information {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     background-color: #ffbf00ab;
-    
-    }
+  }
 }
 .footer-information {
-    width: 70%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #ffbf00ab;
-    margin-top: 60px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffbf00ab;
+  margin-top: 0px;
 }
 
-@media screen and (max-width: 768px) {
-    .footer-logo img {
-        display: none;
-    }
+@media screen and (max-width: 850px) {
+  .footer-logo img {
+    display: none;
+  }
+  .textformfooter {
+    display: none;
+  }
 }
 
 .footer-information .footer-logo img {
-    margin-top: 40px;
+  margin-top: 10px;
 }
 
-.footer-information nav ul li {
-    list-style-type: none;
-    display: flex;
-    padding: 10px;
-    margin-left: 20px;
-} 
+.ulfooter {
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.lifooter {
+  width: 33%;
+}
 
 .footer-information a {
-    text-decoration: none;
-    font-size: 12px;
-    color: white;
-    font-family: Roboto;
-    font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
 }
 
 .footer-information a:hover {
-    color: #FF6347; 
+  color: #ff6347;
 }
 
 .social-media h3,
 .social-media h4 {
-    font-size: 16px;
-    color: black;
-    font-family: Roboto;
-    margin-left: 150px;
-    font-weight: normal;
+  font-size: 16px;
+  color: black;
+  font-family: Roboto;
+  margin-left: 0px;
+  font-weight: normal;
 }
 
 .social-media {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    align-content: flex-end;
+  min-width: 200px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  align-content: flex-end;
+}
+
+.copyright {
+  display: flex;
+  align-items: flex-end;
+}
+.copyright h4 {
+  font-size: 12px;
 }
 
 @media screen and (max-width: 768px) {
-    .copyright {
-        display: none;
-        
-    }
-}
-.copyright {
-    display: flex;
-    align-items: flex-end;
-}
-.copyright h4 {
-    font-size: 12px;
+  .copyright {
+    display: none;
+  }
 }
