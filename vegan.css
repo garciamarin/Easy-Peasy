@@ -1,0 +1,80 @@
+body {
+  background-color: whitesmoke;
+  margin: 0 auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap");
+
+.header---detailpg {
+  background-image: url("./jpg/headerdetailpg.jpg");
+  height: 4%;
+  padding: 1% 0;
+}
+.nav---detailpg {
+  height: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+}
+
+/* title detailpg */
+.wrapper--little--detailpg {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.line--title--detailpg {
+  height: 8px;
+  background-color: #b5da49cc;
+  width: 100%;
+}
+
+.tittle--detailpg {
+  font-family: "Roboto", sans-serif;
+  color: #524848;
+  margin-left: 35%;
+  margin-top: 2%;
+  margin-bottom: 5px;
+}
+
+.wrapper--detailtitle-v {
+  margin-left: 50%;
+}
+
+.v--detailpg {
+  font-family: "Roboto", sans-serif;
+  color: #524848;
+  top: 20px;
+  border-bottom: 2px solid whitesmoke;
+  line-height: 0.1em;
+}
+
+/* ---- filter and search ----*/
+
+.input-group {
+  width: 35%;
+  margin: 3% auto;
+  min-width: 300px;
+}
+
+.btn {
+  background-color: #b6da492c;
+  color: rgba(255, 99, 71, 0.822);
+  font-family: "Dancing Script", cursive;
+  font-size: large;
+  font-weight: 900;
+}
+/*testing*/
+
+.testimg {
+    width: 100px;
+    height: 100px;
+}
+
+.modal-header {
+    display: block;
+   
+}
