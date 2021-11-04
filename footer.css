@@ -14,7 +14,7 @@ footer {
     background-image: url(jpg/footer-bk.png);
     background-size: cover;
     width: 100%;
-    min-width: 600px;
+    min-width: 400px;
 }
 
 footer .form-flex-container {
@@ -40,7 +40,7 @@ textarea {
 }
 
 .footer-form {
-    font-family: Creo;
+    font-family: Roboto;
     color: whitesmoke;
     display: flex;
 }
@@ -141,16 +141,17 @@ form p {
     align-content: flex-end;
 }
 
-@media screen and (max-width: 768px) {
-    .copyright {
-        display: none;
-        
-    }
-}
 .copyright {
     display: flex;
     align-items: flex-end;
 }
 .copyright h4 {
     font-size: 12px;
+    font-family: Roboto;
+}
+@media screen and (max-width: 768px) {
+    .copyright {
+        display: none;
+    }
+    
 }
