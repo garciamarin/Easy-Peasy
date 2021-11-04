@@ -8,22 +8,21 @@
   <!-- and the bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="header.css" />
   <link rel="stylesheet" href="foodSection.css">
   <link rel="stylesheet" href="footer.css" />
-  <scrip src="footer.js"></scrip>
+  <scrip src="footer.js"></scrip> 
   <title>Easy Peasy</title>
 </head>
 
   <body>
     <div class="superheader">
-      <header>
+      <header>#SDZ§
         <div class="navhidden">
           <nav class="navbar ">
             <div class="container-fluid">
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle iconmenu" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" id="menu-button" class="navbar-toggle iconmenu" data-toggle="collapse" data-target="#myNavbar">
                 </button>
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
@@ -75,9 +74,9 @@
   
         <div class="wrap-sidemenu">
   
-          <img class="fixed-top sidemenuimg1" src="./jpg/eco-friendly-fabric.png" alt="" />
-          <img class="fixed-top sidemenuimg2" src="./jpg/vegetarianmenu.png" alt="" />
-          <img class="fixed-top sidemenuimg3" src="./jpg/barbecue.png" alt="" />
+          <a href="#vegansection"><img class="fixed-top sidemenuimg1" src="./jpg/eco-friendly-fabric.png" alt="vegan" /></a>
+          <a href="#veggiesection"><img class="fixed-top sidemenuimg2" src="./jpg/vegetarianmenu.png" alt="veggies" /></a>
+          <a href="#meatsection"><img class="fixed-top sidemenuimg3" src="./jpg/barbecue.png" alt="meat" /></a>
         </div>
   
         <div id="section--aboutus" class="aboutus">
@@ -115,13 +114,22 @@
 
 
 
+
+
+
+
+
+
+
+
+    
     <!-- Vegan  -->
     <!-- Vegan  -->
-    <div class= "foodContainer ">
+    <div id="vegansection" class= "foodContainer ">
       <div class="container-md  pt-3 foodHeadVegan foodHead  "> 
         <div class="row "> 
           <div class="col-sm-4 ml-0 text-center  justify-content-start">
-          <h4 >Easy<br/>VEGAN</h4> 
+          <h4 class="font---family--big ">Easy<br/>VEGAN</h4> 
           </div>
         </div>
       <div class="container-md d-none d-sm-block" >
@@ -134,7 +142,7 @@
                 <div class="foodIntroText" > +10M Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Lemon Red <br/> Lentil Soup</h6></a>
+              <h6 class="card-title font---family--md"><a href="#">Lemon Red <br/> Lentil Soup</h6></a>
               </div>
             </div>
           </div>
@@ -146,7 +154,7 @@
                 <div class="foodIntroText" > +2K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"> <a href="#">Algún platillo <br/>riquis</h6></a>
+              <h6 class="card-title font---family--md"> <a href="#">Algún platillo <br/>riquis</h6></a>
               </div>
             </div>
           </div>
@@ -158,7 +166,7 @@
                 <div class="foodIntroText" > +3K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Sandwich de <br/>lechuga</h6></a>
+              <h6 class="card-title font---family--md" ><a href="#">Sandwich de <br/>lechuga</h6></a>
               </div>
             </div>
           </div>
@@ -170,7 +178,7 @@
                 <div class="foodIntroText" > +1K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
+              <h6 class="card-title font---family--md"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
               </div>
             </div>
           </div>
@@ -182,7 +190,7 @@
                 <div class="foodIntroText" > +15K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
+              <h6 class="card-title font---family--md"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
               </div>
             </div>
           </div>
@@ -193,10 +201,10 @@
               <img class="card-img-top dishImg rounded" src="./jpg/vegetarian6.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
-                <div class="foodIntroText" > +10K Easy Favourite! </div>
+                <div class="foodIntroText " > +10K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
+              <h6 class="card-title font---family--md "><a href="#">Algún platillo <br/>riquis</h6></a></h6>
               </div>
             </div>
           </div>
@@ -204,13 +212,13 @@
       </div>
       <div class="container-sm d-none d-sm-block">
         <div class="row justify-content-center">
-          <p class="col-sm-8 text-center foodSectionIntro" >
-               In imperdiet lorem in tellus tristique euismod. In hac habitasse platea dictumst. Nulla ut dignissim orci. Quisque sollicitudin erat a venenatis viverra. Sed eu porta odio, id fermentum dolor. Nulla molestie lacus vel accumsan varius. 
+          <p class="col-sm-8 text-center foodSectionIntro font---family--sm" >
+            Hot apricot udon noodles cool off Bulgarian carrot cayenne bento box green grapes picnic spiced pumpkin chili apple vinaigrette mint lemon. Potato cinnamon farro platter mushroom risotto morning smoothie bowl sweet potato cinnamon toast plums chilies. 
           </p>
         </div>
         <div class="row mt-3">
           <div class="col .text-nowrap text-center  ">
-          <button href="#" class="btn btn-vegan rounded-pill text-white fw-bold">Eat veggies</button>
+          <button href="#" class="btn btn-vegan  text-white font---family--button">Eat veggies</button>
           </div>
         </div>
       </div>
@@ -232,7 +240,7 @@
               <img class="d-block w-100 Opacity30 rounded" width=100% src="./jpg/vegetarian5.jpg" alt="Carousel Transparent" >
                 <div class="carouselText">
                 <!-- <img src="./jpg/heart.png" width=20em style='vertical-align:middle;' > -->
-                <div> In imperdiet lorem in tellus tristique euismod. In hac habitasse platea dictumst. Nulla ut dignissim orci. Quisque sollicitudin erat a venenatis viverra. 
+                <div class="font-family font---family--sm"> In imperdiet lorem in tellus tristique euismod. In hac habitasse platea dictumst. Nulla ut dignissim orci. Quisque sollicitudin erat a venenatis viverra. 
                 </div>
                 </div>
             </div>
@@ -249,7 +257,7 @@
 
         <div class="row mt-3">
           <div class="col .text-nowrap text-center  ">
-          <button href="#" class="btn btn-vegan rounded-pill text-white fw-bold">Eat veggies</button>
+          <button href="#" class="btn btn-vegan rounded-pill text-white fw-bold font-family">Eat veggies</button>
           </div>
         </div>
       </div>
@@ -263,72 +271,72 @@
     
     <!-- Veggie  -->
     <!-- Veggie  -->
-    <div class="VeggieContainer">
+    <div id="veggiesection" class="VeggieContainer">
       <div class="container-md  pt-3 foodHeadVeggie foodHead  "> 
         <div class="row "> 
           <div class="col-sm-4 ml-0 text-center  justify-content-start">
-          <h4 >Easy<br/>VEGETARIAN</h4> 
+          <h4 class="font---family--big">Easy<br/>VEGETARIAN</h4> 
           </div>
         </div>
       <div class="container-md d-none d-sm-block" >
         <div class="row justify-content-center ">
           <div class="col-sm-4 col-sm-0 mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian1.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian7.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +10M Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Lemon Red <br/> Lentil Soup</h6></a>
+              <h6 class="card-title font---family--md"><a href="#">Lemon Red <br/> Lentil Soup</h6></a>
               </div>
             </div>
           </div>
           <div class="col-sm-4 hidden-xs  mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian2.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian8.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +2K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"> <a href="#">Algún platillo <br/>riquis</h6></a>
+              <h6 class="card-title font---family--md"> <a href="#">Algún platillo <br/>riquis</h6></a>
               </div>
             </div>
           </div>
           <div class="col-sm-4 mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian3.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian9.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +3K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Sandwich de <br/>lechuga</h6></a>
+              <h6 class="card-title font---family--md"><a href="#">Sandwich de <br/>lechuga</h6></a>
               </div>
             </div>
           </div>
           <div class="col-sm-4  mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian4.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian10.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +1K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
+              <h6 class="card-title font---family--md"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
               </div>
             </div>
           </div>
           <div class="col-sm-4   mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian5.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian11.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +15K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
+              <h6 class="card-title font---family--md"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
               </div>
             </div>
           </div>
@@ -336,13 +344,13 @@
       
           <div class="col-sm-4  mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian6.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian3.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +10K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
+              <h6 class="card-title font---family--md"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
               </div>
             </div>
           </div>
@@ -350,13 +358,13 @@
       </div>
       <div class="container-sm d-none d-sm-block">
         <div class="row justify-content-center">
-          <p class="col-sm-8 text-center foodSectionIntro" >
+          <p class="col-sm-8 text-center foodSectionIntro font---family--sm" >
                In imperdiet lorem in tellus tristique euismod. In hac habitasse platea dictumst. Nulla ut dignissim orci. Quisque sollicitudin erat a venenatis viverra. Sed eu porta odio, id fermentum dolor. Nulla molestie lacus vel accumsan varius. 
           </p>
         </div>
         <div class="row mt-3">
           <div class="col .text-nowrap text-center  ">
-          <button href="#" class="btn btn-veggie rounded-pill text-white fw-bold">Eat veggies</button>
+          <button href="#" class="btn btn-veggie text-white fw-bold font---family--button">Eat veggies</button>
           </div>
         </div>
       </div>
@@ -395,7 +403,7 @@
 
         <div class="row mt-3">
           <div class="col .text-nowrap text-center  ">
-          <button href="#" class="btn btn-veggie rounded-pill text-white fw-bold">Eat veggies</button>
+          <button href="#" class="btn btn-veggie text-white font---family--button">Eat veggies</button>
           </div>
         </div>
       </div>
@@ -408,72 +416,72 @@
 
     <!-- Meat  -->
     <!-- Meat  -->
-    <div class="MeatContainer">
+    <div id="meatsection" class="MeatContainer">
       <div class="container-md  pt-3 foodHeadMeat foodHead  "> 
         <div class="row "> 
           <div class="col-sm-4 ml-0 text-center  justify-content-start">
-          <h4 >Easy<br/>Meat Lovers</h4> 
+          <h4 class="font---family--big">Easy<br/>Meat Lovers</h4> 
           </div>
         </div>
       <div class="container-md d-none d-sm-block" >
         <div class="row justify-content-center ">
           <div class="col-sm-4 col-sm-0 mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian1.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/meat1.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +10M Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Lemon Red <br/> Lentil Soup</h6></a>
+              <h6 class="card-title font---family--md font---family--md"><a href="#">Lemon Red <br/> Lentil Soup</h6></a>
               </div>
             </div>
           </div>
           <div class="col-sm-4 hidden-xs  mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian2.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/meat2.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +2K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"> <a href="#">Algún platillo <br/>riquis</h6></a>
+              <h6 class="card-title font---family--md"> <a href="#">Algún platillo <br/>riquis</h6></a>
               </div>
             </div>
           </div>
           <div class="col-sm-4 mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian3.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/meat3.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
-                <div class="foodIntroText" > +3K Easy Favourite! </div>
+                <div class="foodIntroText " > +3K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Sandwich de <br/>lechuga</h6></a>
+              <h6 class="card-title font---family--md"><a href="#">Sandwich de <br/>lechuga</h6></a>
               </div>
             </div>
           </div>
           <div class="col-sm-4  mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian4.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/meat4.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +1K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
+              <h6 class="card-title font---family--md"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
               </div>
             </div>
           </div>
           <div class="col-sm-4   mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian5.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/meat5.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +15K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
+              <h6 class="card-title font---family--md"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
               </div>
             </div>
           </div>
@@ -481,13 +489,13 @@
       
           <div class="col-sm-4  mt-2">   
             <div class="card border-0 dishBox card-background" >
-              <img class="card-img-top dishImg rounded" src="./jpg/vegetarian6.jpg" alt="veggie pic">
+              <img class="card-img-top dishImg rounded" src="./jpg/meat6.jpg" alt="veggie pic">
               <div class="dishMiddle">
                 <img src="./jpg/heart.png" width=20em style='vertical-align:middle;'>
                 <div class="foodIntroText" > +10K Easy Favourite! </div>
               </div>
               <div class="card-body pl-0">
-              <h6 class="card-title"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
+              <h6 class="card-title font---family--md"><a href="#">Algún platillo <br/>riquis</h6></a></h6>
               </div>
             </div>
           </div>
@@ -495,13 +503,13 @@
       </div>
       <div class="container-sm d-none d-sm-block">
         <div class="row justify-content-center">
-          <p class="col-sm-8 text-center foodSectionIntro" >
-               In imperdiet lorem in tellus tristique euismod. In hac habitasse platea dictumst. Nulla ut dignissim orci. Quisque sollicitudin erat a venenatis viverra. Sed eu porta odio, id fermentum dolor. Nulla molestie lacus vel accumsan varius. 
+          <p class="col-sm-8 text-center foodSectionIntro font---family--sm" >
+            Bite sized roasted brussel sprouts orange ultra creamy avocado pesto Thai curry double dark chocolate. In imperdiet lorem in tellus tristique euismod. In hac habitasse platea dictumst. Nulla ut dignissim orci. Quisque sollicitudin erat a venenatis viverra.
           </p>
         </div>
         <div class="row mt-3">
           <div class="col .text-nowrap text-center  ">
-          <button href="#" class="btn btn-meat rounded-pill text-white fw-bold">Eat veggies</button>
+          <button href="#" class="btn btn-meat text-white font---family--button"> Find more</button>
           </div>
         </div>
       </div>
@@ -603,6 +611,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="menu.js"></script>
   </body>
 
 
