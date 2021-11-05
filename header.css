@@ -21,7 +21,7 @@ body {
   cursor: url("./jpg/pointer.png"), default;
 }
 
-header {
+.header--landingpg {
   background-image: url("./jpg/avocadoheader.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +45,7 @@ header {
   width: 20%;
 }
 
-nav {
+.nav---landinpg {
   height: 5%;
   display: flex;
   justify-content: center;
