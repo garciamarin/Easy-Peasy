@@ -115,7 +115,7 @@
   text-align: center;
   /* text-align: justify; */
 }
-.foodContainer a {
+.foodContainer a, .VeggieContainer a, .MeatContainer a {
   color: black;
   text-decoration: none;
 }

@@ -12,10 +12,10 @@ body {
   overflow: scroll;
 }
 
-a {
+.superheader a {
   color: white;
 }
-a:hover {
+.superheader a:hover {
   text-decoration: none;
   color: tomato;
   cursor: url("./jpg/pointer.png"), default;

@@ -1,0 +1,10 @@
+.footer {
+    background-image: url(jpg/footer-bk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.footer h2{
+    color: white;
+}
