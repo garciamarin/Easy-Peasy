@@ -1,10 +1,47 @@
-.footer {
-    background-image: url(jpg/footer-bk.png);
-    background-size: cover;
+.footerDetail {
+    background-image: url("./jpg/vegetarian9.jpg");
+   background-size: cover; 
     background-repeat: no-repeat;
     background-position: center center;
 }
-
-.footer h2{
-    color: white;
+.footerDetail-margin{
+  margin: 0 15%;
 }
+.social-media-detail h4 {
+  color: #b5da49cc;
+  font-family:Creo;
+}
+
+.footer-information-detail {
+      background-color: #ffbf00ab;
+      padding: 0 15%;
+}
+.footer-information-margin{
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.footer-information-detail a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.footer-information-detail a:hover {
+  color: #ff6347;
+}
+.copyright-detail p{
+    font-size: .8em;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.titleModal{
+  color: #b5da49cc
+}
+  
+
+
+  
+
