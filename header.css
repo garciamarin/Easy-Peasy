@@ -12,7 +12,7 @@ body {
   overflow: scroll;
 }
 
-.superheader a {
+.superheader a, header---detailpg a {
   color: white;
 }
 .superheader a:hover {
