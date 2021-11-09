@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This things we need for Bootstrap -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- and the bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="vegan.css" />
+    <link rel="stylesheet" href="sidepage_footer.css">
+
+    <title>Easy Peasy</title>
+</head>
+
+<body>
+
+    <header class="header---detailpg">
+        <div class="navhidden">
+            <nav class="navbar ">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" id="menu-button" class="navbar-toggle iconmenu" data-toggle="collapse"
+                            data-target="#myNavbar">
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav backgroundhiddemenu">
+                            <li class="active nav--menu--item"><a href="index.html">HOME</a></li>
+                            <span class="nav--menu--item"><a href="#section--aboutus">ABOUT US</a></span>
+                            <span class=" active nav--menu--item"><a href="vegan.html">VEGAN</a></span>
+                            <span class="active nav--menu--item"><a href="vegetarian.html">VEGETARIAN</a></span>
+                            <span class="active nav--menu--item"><a href="meatlovers.html">MEAT-LOVERS</a></span>
+                            <span class="active nav--menu--item"><a href="#">CONTACT</a></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <nav class="nav---detailpg">
+            <div class="nav--content ">
+                <div class="logo--wrapper">
+                    <img class="logo-easypeasy" src="./img/easy_peasy-logo_transparent.png" alt="Logo-Easy" />
+                </div>
+
+                <ul class="wrapper--menu--item">
+                    <span class="nav--menu--item"><a href="index.html">HOME</a></span>
+                    <span class="nav--menu--item"><a href="#section--aboutus">ABOUT US</a></span>
+                    <span class="nav--menu--item"><a href="vegan.html">VEGAN</a></span>
+                    <span class="nav--menu--item"><a href="vegetarian.html">VEGETARIAN</a></span>
+                    <span class="nav--menu--item"><a href="meatlovers.html">MEAT-LOVERS</a></span>
+                    <span class="nav--menu--item"><a href="#">CONTACT</a></span>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div class="wrapper--little--detailpg">
+        <h1 class="tittle--detailpg">Easy Peasy</h1>
+
+        <div class="line--title--detailpg"></div>
+
+        <div class="wrapper--detailtitle-v">
+            <h1 class="v--detailpg">MEAT-LOVERS </h1>
+
+        </div>
+    </div>
+
+
+    <div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Sort by
+                    meal</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Breakfast</a>
+                    <a class="dropdown-item" href="#">Lunch</a>
+                    <a class="dropdown-item" href="#">Diner</a>
+
+                </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+        </div>
+    </div>
+
+    <!--Main content - Here starts Fran´s part-->
+    
+    <main class="container">
+      <div class="wraper">
+        <div class="card mb-3 border-light bg-light" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <div class="image">
+                    <img src="jpg/meat1.jpg" class="img-fluid rounded" alt="..." >
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Pumpkin Soup</h5>
+                  <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                  <button type="button" class="text-white btn btn-success border-light" data-toggle="modal" data-target="#modalReceta">Let's cook EasyPeasy! </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="modalReceta" tabindex="-1" role="dialog" aria-labelledby="modalRecetaTitulo" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="modalRecepyName">Very Delicious Dish</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="card border-0 dishBox card-background">
+                              <img class="card-img-top dishImg rounded" src="./jpg/meat5.jpg" alt="veggie pic">
+                              <div class="card-body pl-0">
+                                <!-- <h6 class="card-title  titleModal">Very Delicious Dish</h6> -->
+                                <h3 class=" font---family--sm"> Ingredients </h3>
+                                <ul>
+                                  <li>Tomato</li>
+                                  <li>Cereal</li>
+                                  <li>Fancy things</li>
+                                </ul>
+                                <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center">
+                          <!-- <button type="button" class="btn btn-secondary border-light" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary border-light">Save changes</button> -->
+                          <input type="image"  id="saveform" src="jpg/heart.png" alt="Submit Form" />
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+<!-- End Modal -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wraper">
+          <div class="card mb-3 border-light bg-light" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <div class="image">
+                  <img src="jpg/meat3.jpg" class="img-fluid rounded" alt="..." >
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Veggie Bruscheta</h5>
+                  <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                  <button type="button" class="text-white btn btn-success border-light" data-toggle="modal" data-target="#modalReceta">Let's cook EasyPeasy! </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="modalReceta" tabindex="-1" role="dialog" aria-labelledby="modalRecetaTitulo" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="modalRecepyName">Very Delicious Dish</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="card border-0 dishBox card-background">
+                              <img class="card-img-top dishImg rounded" src="./jpg/meat4.jpg" alt="veggie pic">
+                              <div class="card-body pl-0">
+                                <!-- <h6 class="card-title  titleModal">Very Delicious Dish</h6> -->
+                                <h3 class=" font---family--sm"> Ingredients </h3>
+                                <ul>
+                                  <li>Tomato</li>
+                                  <li>Cereal</li>
+                                  <li>Fancy things</li>
+                                </ul>
+                                <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center">
+                          <!-- <button type="button" class="btn btn-secondary border-light" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary border-light">Save changes</button> -->
+                          <input type="image"  id="saveform" src="jpg/heart.png" alt="Submit Form" />
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+<!-- End Modal -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wraper">
+          <div class="card mb-3 border-light bg-light" style="max-width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <div class="image">
+                      <img src="jpg/meat7.jpg" class="img-fluid rounded" alt="..." >
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h5 class="card-title">Pumpkin Soup</h5>
+                    <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                    <button type="button" class="text-white btn btn-success border-light" data-toggle="modal" data-target="#modalReceta">Let's cook EasyPeasy! </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalReceta" tabindex="-1" role="dialog" aria-labelledby="modalRecetaTitulo" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalRecepyName">Very Delicious Dish</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="card border-0 dishBox card-background">
+                                <img class="card-img-top dishImg rounded" src="./jpg/vegetarian5.jpg" alt="veggie pic">
+                                <div class="card-body pl-0">
+                                  <!-- <h6 class="card-title  titleModal">Very Delicious Dish</h6> -->
+                                  <h3 class=" font---family--sm"> Ingredients </h3>
+                                  <ul>
+                                    <li>Tomato</li>
+                                    <li>Cereal</li>
+                                    <li>Fancy things</li>
+                                  </ul>
+                                  <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-center">
+                            <!-- <button type="button" class="btn btn-secondary border-light" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary border-light">Save changes</button> -->
+                            <input type="image"  id="saveform" src="jpg/heart.png" alt="Submit Form" />
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+  
+  <!-- End Modal -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="wraper">
+            <div class="card mb-3 border-light bg-light" style="max-width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <div class="image">
+                    <img src="jpg/meat8.jpg" class="img-fluid rounded" alt="..." >
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Veggie Bruscheta</h5>
+                    <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                    <button type="button" class="text-white btn btn-success border-light" data-toggle="modal" data-target="#modalReceta">Let's cook EasyPeasy! </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalReceta" tabindex="-1" role="dialog" aria-labelledby="modalRecetaTitulo" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalRecepyName">Very Delicious Dish</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="card border-0 dishBox card-background">
+                                <img class="card-img-top dishImg rounded" src="./jpg/vegetarian6.jpg" alt="veggie pic">
+                                <div class="card-body pl-0">
+                                  <!-- <h6 class="card-title  titleModal">Very Delicious Dish</h6> -->
+                                  <h3 class=" font---family--sm"> Ingredients </h3>
+                                  <ul>
+                                    <li>Tomato</li>
+                                    <li>Cereal</li>
+                                    <li>Fancy things</li>
+                                  </ul>
+                                  <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-center">
+                            <!-- <button type="button" class="btn btn-secondary border-light" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary border-light">Save changes</button> -->
+                            <input type="image"  id="saveform" src="jpg/heart.png" alt="Submit Form" />
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+  
+  <!-- End Modal -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wraper">
+            <div class="card mb-3 border-light bg-light" style="max-width: 100%;">
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <div class="image">
+                        <img src="jpg/meat9.jpg" class="img-fluid rounded" alt="..." >
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Pumpkin Soup</h5>
+                      <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                      <button type="button" class="text-white btn btn-success border-light" data-toggle="modal" data-target="#modalReceta">Let's cook EasyPeasy! </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="modalReceta" tabindex="-1" role="dialog" aria-labelledby="modalRecetaTitulo" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="modalRecepyName">Very Delicious Dish</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="card border-0 dishBox card-background">
+                                  <img class="card-img-top dishImg rounded" src="./jpg/vegetarian5.jpg" alt="veggie pic">
+                                  <div class="card-body pl-0">
+                                    <!-- <h6 class="card-title  titleModal">Very Delicious Dish</h6> -->
+                                    <h3 class=" font---family--sm"> Ingredients </h3>
+                                    <ul>
+                                      <li>Tomato</li>
+                                      <li>Cereal</li>
+                                      <li>Fancy things</li>
+                                    </ul>
+                                    <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer d-flex justify-content-center">
+                              <!-- <button type="button" class="btn btn-secondary border-light" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary border-light">Save changes</button> -->
+                              <input type="image"  id="saveform" src="jpg/heart.png" alt="Submit Form" />
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+    
+    <!-- End Modal -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="wraper">
+              <div class="card mb-3 border-light bg-light" style="max-width: 100%;">
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <div class="image">
+                      <img src="jpg/meat8.jpg" class="img-fluid rounded" alt="..." >
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Veggie Bruscheta</h5>
+                      <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                      <button type="button" class="text-white btn btn-success border-light" data-toggle="modal" data-target="#modalReceta">Let's cook EasyPeasy! </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="modalReceta" tabindex="-1" role="dialog" aria-labelledby="modalRecetaTitulo" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="modalRecepyName">Very Delicious Dish</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="card border-0 dishBox card-background">
+                                  <img class="card-img-top dishImg rounded" src="./jpg/vegetarian6.jpg" alt="veggie pic">
+                                  <div class="card-body pl-0">
+                                    <!-- <h6 class="card-title  titleModal">Very Delicious Dish</h6> -->
+                                    <h3 class=" font---family--sm"> Ingredients </h3>
+                                    <ul>
+                                      <li>Tomato</li>
+                                      <li>Cereal</li>
+                                      <li>Fancy things</li>
+                                    </ul>
+                                    <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer d-flex justify-content-center">
+                              <!-- <button type="button" class="btn btn-secondary border-light" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary border-light">Save changes</button> -->
+                              <input type="image"  id="saveform" src="jpg/heart.png" alt="Submit Form" />
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+    
+    <!-- End Modal -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="wraper">
+              <div class="card mb-3 border-light bg-light" style="max-width: 100%;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <div class="image">
+                          <img src="jpg/meat9.jpg" class="img-fluid rounded" alt="..." >
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <h5 class="card-title">Pumpkin Soup</h5>
+                        <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                        <button type="button" class="text-white btn btn-success border-light" data-toggle="modal" data-target="#modalReceta">Let's cook EasyPeasy! </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalReceta" tabindex="-1" role="dialog" aria-labelledby="modalRecetaTitulo" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="modalRecepyName">Very Delicious Dish</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="card border-0 dishBox card-background">
+                                    <img class="card-img-top dishImg rounded" src="./jpg/meat10.jpg" alt="veggie pic">
+                                    <div class="card-body pl-0">
+                                      <!-- <h6 class="card-title  titleModal">Very Delicious Dish</h6> -->
+                                      <h3 class=" font---family--sm"> Ingredients </h3>
+                                      <ul>
+                                        <li>Tomato</li>
+                                        <li>Cereal</li>
+                                        <li>Fancy things</li>
+                                      </ul>
+                                      <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                <!-- <button type="button" class="btn btn-secondary border-light" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary border-light">Save changes</button> -->
+                                <input type="image"  id="saveform" src="jpg/heart.png" alt="Submit Form" />
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+      
+      <!-- End Modal -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="wraper">
+                <div class="card mb-3 border-light bg-light" style="max-width: 100%;">
+                  <div class="row g-0">
+                    <div class="col-md-3">
+                      <div class="image">
+                        <img src="jpg/meat11.jpg" class="img-fluid rounded" alt="..." >
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Veggie Bruscheta</h5>
+                        <p class="card-text">Crumbled lentils sriracha pecans pasta second course edamame banana bread plums green tea lime fall peppermint dessert cashew cranberry spritzer garlic.</p>
+                        <button type="button" class="text-white btn btn-success border-light" data-toggle="modal" data-target="#modalReceta">Let's cook EasyPeasy! </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalReceta" tabindex="-1" role="dialog" aria-labelledby="modalRecetaTitulo" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="modalRecepyName">Very Delicious Dish</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="card border-0 dishBox card-background">
+                                    <img class="card-img-top dishImg rounded" src="./jpg/meat12.jpg" alt="veggie pic">
+                                    <div class="card-body pl-0">
+                                      <!-- <h6 class="card-title  titleModal">Very Delicious Dish</h6> -->
+                                      <h3 class=" font---family--sm"> Ingredients </h3>
+                                      <ul>
+                                        <li>Tomato</li>
+                                        <li>Cereal</li>
+                                        <li>Fancy things</li>
+                                      </ul>
+                                      <p class="card-text">Creamiest avocado basil pesto picnic mediterranean vegetables vitamin glow green tea candy cane winter cinnamon toast cinnamon entree bento box sriracha pecans. Strawberries strawberry mango smoothie simmer peanut butter crunch blueberries broccoli salted coconut guacamole crispy iceberg lettuce samosa coconut rice Chinese five-spice powder avocado cozy cinnamon oatmeal picnic salad Indian spiced açai lavender lemonade asian pear casserole pine nuts enchiladas tempeh Mexican fiesta green pepper. Bruschetta Sicilian pistachio pesto cool cucumbers comforting pumpkin spice latte naga viper vine tomatoes peanut butter cherry bomb cool red lentil curry mint cremini mushrooms zesty tofu pad thai seitan apples chocolate cookie paprika kale mocha chocolate bananas.
+
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                <!-- <button type="button" class="btn btn-secondary border-light" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary border-light">Save changes</button> -->
+                                <input type="image"  id="saveform" src="jpg/heart.png" alt="Submit Form" />
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+      
+      <!-- End Modal -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        
+        
+      </main>
+
+    <!--Main content - Here ends Fran´s part-->
+
+
+
+
+  <!-- Footer -->
+  <div   class="footerDetail "> 
+    <div class="container-fluid  m-0 footerDetail-margin" >
+    <div class="row d-flex justify-content-center ">
+        <div class="col-8 pt-3 pb-3">
+        <h3 class="font--family--big text-white text-center"> Don't miss the Peasy-channel!!</h3>
+        </div>
+    </div>
+   
+    <!-- <div class="row justify-content-center pb-3">
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/iik25wqIuFo?controls=0&autoplay=1">
+        </iframe>
+    </div> -->
+    <div class="row  justify-content-center pt-3 pb-3">
+   
+        <iframe  width="70%" height="315"  src="https://www.youtube.com/embed/iik25wqIuFo?controls=0&autoplay=0"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+     
+    </div>
+    <!-- <div class="row video justify-content-center pb-3"> 
+        <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+          <img src="./jpg/meat1.jpg" style="cursor:pointer" width="560"  />
+        </div>
+        <div style="display:none">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iik25wqIuFo?controls=0&autoplay=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div> --> 
+    <!-- </div> -->
+    <div class="social-media-detail row d-flex p-3 justify-content-center">
+        <div class=" col-12  d-flex justify-content-center "> 
+        <h4 class=" d-inline-block pt-2 pr-4">Follow Easy Peasy:</h4> 
+        <a href="https:\\www.facebook.com"  target="blank" class="p-2"><img src="jpg/facebook-icon.png" width="35px" ></a>
+        <a href="https:\\www.instagram.com"  target="blank"class="p-2"><img src="jpg/instagram-icon.png" width="35" ></a>
+        <a href="https:\\www.youtube.com"  target="blank"class="p-2"><img src="jpg/youtube-icon.png" width="35" ></a>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="footer-information-detail">
+    <div class="footer-information-margin container-fluid ">
+    <div class="row ">
+         <div class="p-2 col-6 col-sm-3 ">
+                <img src="./img/easy_peasy-logo_transparent.png" width="50" alt="easy peasy logo" />
+        </div>
+        <nav class="col-6 col-sm-5 d-flex justify-content-center align-items-center ">
+                <a href="#ourstory" class="p-2">HOME</a>
+                <a href="#ourstory" class="p-2">FAQ</a>
+                <a href="#expertise" class="p-2">RECIPES</a>
+        </nav>
+        <div class="col-12 col-sm-4 m-2 m-sm-0 copyright-detail d-flex justify-content-center align-items-center  ">
+                <p class=" text-center pr-1 m-0">&copy; Copyright Easy Peasy Co.  Rights Reserved. </p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <!-- Este es el JavaScript de Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="menu.js"></script>
+
+    
+</body>
