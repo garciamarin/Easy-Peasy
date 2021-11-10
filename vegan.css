@@ -38,6 +38,20 @@ body {
   background-color: #b5da49cc;
   width: 100%;
 }
+.line--title--detailpgml {
+  height: 8px;
+  background-color: tomato;
+  width: 100%;
+
+}
+
+.line--title--detailpgveget{
+  height: 8px;
+  background-color: #ffcd29;
+  width: 100%;
+
+
+}
 
 .tittle--detailpg {
   font-family: "Roboto", sans-serif;
