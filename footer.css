@@ -9,29 +9,36 @@
 
   /* add display none for copyright */
 }
-
+ .footer-form form h1 {
+   margin-top: 20px;
+   font-size: 30px;
+ }
 
 footer .form-flex-container {
   background-image: url(jpg/footer-bk.png);
   background-size: cover;
   width: 100%;
   min-width: 300px;
-
+  height: ;
   text-align: center;
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+ 
+}
+
+.footer-form ::placeholder {
+  font-size: 15px;
+  margin-left: 30px;
 }
 
 .footer-form input,
 textarea {
   min-width: 150px;
   width: 70%;
-
   font-size: 15px;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 5px;
+  margin: 2px 10px;
   border: 1px solid whitesmoke;
   border-radius: 10px;
   font-family: Creo;
@@ -39,14 +46,15 @@ textarea {
   background-color: whitesmoke;
 }
 
-.inputareahight {
-  height: 40px;
+textarea {
+  height: 60px;
 }
 
 .footer-form {
   font-family: Creo;
   color: whitesmoke;
   display: flex;
+  margin-top: 10px;
 }
 
 .footer-form button {
@@ -75,7 +83,7 @@ form {
 }
 
 form h1 {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: lighter;
 }
 
@@ -97,7 +105,7 @@ form p {
   width: 100%;
   height: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #ffbf00ab;
   margin-top: 0px;
@@ -112,10 +120,6 @@ form p {
   }
 }
 
-.footer-information .footer-logo img {
-  margin-top: 10px;
-}
-
 .ulfooter {
   height: 50px;
 
@@ -126,6 +130,7 @@ form p {
 
 .lifooter {
   width: 33%;
+  padding: 10px;
 }
 
 .footer-information a {
@@ -133,7 +138,7 @@ form p {
   font-size: 12px;
   color: white;
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .footer-information a:hover {
@@ -154,13 +159,12 @@ form p {
   display: flex;
   gap: 10px;
   align-items: center;
-  align-content: flex-end;
 }
 
 .copyright {
   display: flex;
-  align-items: flex-end;
 }
+
 .copyright h4 {
   font-size: 12px;
 }
